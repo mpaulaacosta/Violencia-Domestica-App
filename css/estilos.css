@@ -1,0 +1,102 @@
+/* font-family: 'Raleway', sans-serif; */
+.navbar-index{
+    position: relative;
+    height: 25%;
+}
+.navbar-index .title-large-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: white;
+    font-weight: 300;
+}
+.navbar-index .navbar-inner{
+    padding-top: 100px;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-index .navbar-inner img{
+    width: 8%;
+}
+.navbar-index .navbar-bg{
+    background-color: #660099;
+    /* padding: 30px 0 10px 0; */
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+}
+.page-content{
+    position: relative;
+}
+.cartas1-index, .cartas2-index{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 30%;
+    margin: 8px auto;
+}
+.cartas1-index a, .cartas2-index a{
+    width: 45%;
+}
+.card-index{
+    margin: 10px;
+    background-color: #660099;
+    border-radius: 10px;
+    height: 90%;
+    box-shadow: 0px 8px 0px #cccccc
+}
+.card-index .card-content{
+    display: block;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.card-index .card-content img{
+    width: 40%;
+}
+.card-index .card-content h2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    width: 80%;
+    margin: 8px auto 0;
+}
+
+
+
+
+
+
+
+.toolbar{
+    position: relative;
+    background-color: #660099;
+    margin: auto;
+    padding: 35px;
+    border-top-left-radius: 500px 200px;
+    border-top-right-radius: 500px 200px;
+}
+.toolbar .toolbar-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.toolbar .toolbar-inner .home{
+    margin-top: 0px;
+}
+.toolbar .toolbar-inner a{
+    margin-top: 18px;
+    width:50px;
+    height: 50px;
+}
+.toolbar .toolbar-inner img{
+    width:150%;
+}
+.toolbar .toolbar-inner .actual{
+    background-color: #ffcc33;
+    border-radius: 50%;
+}
