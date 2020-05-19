@@ -12,12 +12,16 @@ var app = new Framework7({
     // Add default routes
     routes: [
     {
-        path: '/about/',
-        url: 'about.html',
+        path: '/home/',
+        url: 'index.html',
     },
     {
         path: '/que-es/',
         url: 'que-es.html',
+    },
+    {
+        path: '/info_purpura/',
+        url: 'linea-purpura-info',
     },
     ],
     // ... other parameters

@@ -18,7 +18,7 @@
     display: flex;
     justify-content: space-between;
 }
-.navbar-index .navbar-inner img{
+.navbar-index .navbar-inner a{
     width: 8%;
 }
 .navbar-index .navbar-bg{
@@ -68,6 +68,102 @@
 
 
 
+.navbar-principales-mt{
+    position: relative;
+    height: 25%;
+}
+.navbar-principales-mt .title-large-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+.navbar-principales-mt .navbar-inner{
+    padding-top: 30px;
+    display: grid;
+}
+.navbar-principales-mt .navbar-inner .sliding{
+    padding: 0px;
+}
+.navbar-principales-mt .navbar-inner a{
+    width: 20%;
+}
+.navbar-principales-mt .navbar-inner a img{
+    width: 40%;
+}
+.navbar-principales-mt .navbar-inner .titulo-tarjeta-mt{
+    display: flex;
+    justify-content: center;
+}
+.navbar-principales-mt .navbar-inner .titulo-tarjeta-mt img{
+    width: 15%;
+    margin-right: 20px;
+}
+.navbar-principales-mt .navbar-bg{
+    background-color: #660099;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+}
+
+.definicion-que-es-mt{
+    width: 100%;
+}
+.definicion-que-es-mt .card-que-mt{
+    position: relative;
+    z-index: -1;
+    margin: 0px;
+    padding: 5px 0px 5px;
+    border-radius: 0 0 10px 10px;
+    background-color: #cccccc;
+}
+.definicion-que-es-mt .card-content{
+    width: 80%;
+    margin: auto;
+}
+.definicion-que-es-mt .card-content h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    color: #660099;
+    font-weight: 500;
+    text-align: center;
+}
+.titulo-tipos-mt h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #660099;
+    font-weight: 300;
+    text-align: center;
+}
+.cartas1-que-es-mt, .cartas2-que-es-mt{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+.cartas1-que-es-mt .card-tipo-mt .card-content{
+    width: 80px;
+    height: 90px;
+}
+.cartas2-que-es-mt .card-tipo-mt .card-content{
+    width: 100px;
+    height: 110px;
+}
+.card-tipo-mt .card-content{
+    background-color: #ffcc33;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px #cccccc;
+    padding: 10px;
+}
+.card-tipo-mt .card-content h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 30px;
+}
 
 
 
