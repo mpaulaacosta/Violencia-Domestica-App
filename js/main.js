@@ -20,11 +20,22 @@ var app = new Framework7({
         url: 'que-es.html',
     },
     {
-        path: '/info_purpura/',
-        url: 'linea-purpura-info',
+        path: '/info-purpura/',
+        url: 'linea-purpura-info.html',
+    },
+    {
+        path: '/que-es-purpura/',
+        url: 'que-es-linea-purpura.html',
     },
     ],
     // ... other parameters
 });
-  
 var mainView = app.views.create('.view-main');
+
+var $$ = Dom7;
+$$(document).on('page:init', '.page[data-name="info-purpura"]', function(e) {
+    $$('.open-confirm').on('click', function () {
+    app.dialog.confirm('Comúnicate con la Línea Púrpura para recibir orientación y apoyo' + '\n', 'Si por el aislamiento por COVID-19 eres víctima de violencias o estas en riesgo:', function () {
+    });
+});
+})

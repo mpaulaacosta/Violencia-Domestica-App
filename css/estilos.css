@@ -132,7 +132,7 @@
     font-size: 15px;
     letter-spacing: 2px;
     color: #660099;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
 }
 .cartas1-que-es-mt, .cartas2-que-es-mt{
@@ -160,17 +160,114 @@
     font-size: 12px;
     letter-spacing: 2px;
     color: black;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     margin-top: 30px;
 }
 
+.navbar-info-lp-mt{
+    position: relative;
+    height: 25%;
+}
+.navbar-info-lp-mt .navbar-inner{
+    padding-top: 70px;
+    display: grid;
+    justify-content: center;
+}
+.navbar-info-lp-mt .navbar-inner h1{
+    margin: 20px auto 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    line-height: 40px;
+}
+.navbar-info-lp-mt .navbar-bg{
+    background-color: #660099;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    padding-top: 30px;
+}
+.lp-info-mt{
+    padding-top: 50px;
+}
+.lp-info-mt a{
+    margin: auto;
+}
+.lp-info-mt h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+}
+.lp-info-mt a .card-content{
+    width:290px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px #cccccc;
+    padding: 5px 20px;
+}
+.lp-info-mt .card-linea-purpura .card-content{
+    background-color: #660099;
+    color: white;
+}
+.lp-info-mt .card-ayuda-urg .card-content{
+    background-color: #ffcc33;
+    color: #660099;
+}
 
 
+
+.dialog{
+    color: #660099;
+}
+.dialog-button{
+    color: #660099;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.dialog-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.dialog-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 20px 0px 10px !important;
+}
+
+.navbar-principales-mt .navbar-inner .titulo-tarjeta-mt-lp{
+    display: block;
+    align-content: center;
+    margin: auto;
+}
+.navbar-principales-mt .navbar-inner .titulo-tarjeta-mt-lp img{
+    width: 30%;
+    margin-top: 20px;
+}
+
+.que-es-linea-mt{
+    position: relative;
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: #cccccc;
+}
+.que-es-linea-mt h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #660099;
+    font-weight: 400;
+    text-align: center;
+}
 
 .toolbar{
     position: relative;
-    background-color: #660099;
+    background-color: #660099 !important;
     margin: auto;
     padding: 35px;
     border-top-left-radius: 500px 200px;
@@ -182,15 +279,16 @@
     align-items: center;
 }
 .toolbar .toolbar-inner .home{
-    margin-top: 0px;
+    margin-top: -10px;
 }
 .toolbar .toolbar-inner a{
     margin-top: 18px;
     width:50px;
     height: 50px;
+    padding: 0px !important;
 }
 .toolbar .toolbar-inner img{
-    width:150%;
+    width:60% !important;
 }
 .toolbar .toolbar-inner .actual{
     background-color: #ffcc33;
