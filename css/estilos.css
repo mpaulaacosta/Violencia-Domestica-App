@@ -1,0 +1,360 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.toolbar-inner{
+    background-color: #652c90;
+    border-radius: 50px;
+    padding: 20px 
+}
+.toolbar-inner i{
+    color: white
+}
+
+.home-menu{
+    background-color: #ffcd33;
+    border-radius: 100px;
+}
+.home-menu i{
+     color: #652c90;
+    font-size: 18px
+}
+.page-content-mp{
+    background-color: white;
+    height: 100%
+}
+.page-content-mp .amarillo-mp{
+    background-color: #ffcd33;
+    padding: 60px 20px .1px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #652c90;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0
+}
+.page-content-mp .amarillo-mp a i{
+    color: #652c90;
+    font-size: 20px
+}
+.v-titulo-mp{
+  padding: 70px 0 0 ;
+    text-align: center;    
+}
+.v-titulo-mp img{
+    width: 70px
+}
+.page-content-mp .amarillo-mp h1{
+    margin: 0 0 20px    
+}
+.page-content-mp .caja-gris p{
+    padding: 340px 40px 30px;
+    background-color: #e7e8e9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center
+}
+.boton-contenedor-mp {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-mp {
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 25px 80px;
+    text-transform: uppercase;
+    box-shadow: 0px 15px#e7e8e9
+}
+
+.btn-boton-mp {
+    color: white;
+    background-color: #652c90
+}
+
+/*3 lineas*/
+.boton-contenedor-mp-3lineas {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.page-content-mp-3lineas .amarillo-mp-3lineas{
+    background-color: #ffcd33;
+    padding: 5px 20px .1px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #652c90;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0
+}
+.v-titulo-mp-3lineas{
+  padding: 30px 0 0 ;
+    text-align: center;    
+}
+.v-titulo-mp-3lineas img{
+    width: 90px
+}
+.v-titulo-mp-3lineas h1{
+    margin-top: 0
+}
+.page-content-mp-3lineas p{
+    padding: 290px 40px 30px;
+    background-color: #e7e8e9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center
+}
+/*Señales*/
+.page-content-mp .morado-mp{
+    background-color: #652c90;
+    padding: 60px 20px .1px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    line-height: 24px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    font-size: 10px
+}
+.page-content-mp .morado-mp i{
+    font-size: 18px;
+    color: white
+}
+.senal-titulo-mp {
+    display: flex;
+    align-items:flex-end
+}
+.senal-titulo-mp img{
+    height: 70px;
+    padding-bottom: 15px
+}
+.senal-titulo-mp .senales-h1{
+    margin-top: 80px
+}
+.page-content-mp .p-gris-senales p{
+    padding: 265px 40px 30px;
+}
+.boton-contenedor-mp-senal {
+    padding: 10px 0px 15px;
+    display: flex;
+    justify-content: center;
+}
+.btn-mp-senal {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    box-shadow: 0px 15px#e7e8e9;
+    margin: 0 30px
+}
+.btn-boton-mp-senal {
+    color: #652c90;
+    background-color: #ffcd33
+}
+
+/*AMIGOS*/
+.entre-lineas-mp{
+    text-align: center;
+    font-size: 12px;
+    color: #652c90;
+    padding: 1px
+}
+.entre-lineas-mp .h3{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: #652c90;
+}
+h3::after,h3::before{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #ffcd33 
+}
+.lines-effect-2::after,.lines-effect-2::before{
+    width: 30px
+}
+.lines-effect-3::after,.lines-effect-3::before{
+    width: 15px
+}
+.lines-effect-4::after,.lines-effect-4::before{
+    width: 70px
+}
+.lines-effect-5::after,.lines-effect-5::before{
+    width: 95px
+}
+.lines-effect-6::after,.lines-effect-6::before{
+    width: 25px
+}
+h3::before{
+    left: 0px;
+    margin-top: 10px
+}
+h3::after{
+    right: 0px;
+    margin-top: 10px
+}
+.page-content-mp .amigo-mp{
+    background-color: #ffcd33;
+    padding: 60px 30px .1px 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #652c90;
+    line-height: 24px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+}
+.page-content-mp .amigo-mp i{
+    font-size: 18px;
+    color: white;
+    text-align:left
+}
+.page-content-mp .p-gris-amigo p{
+    padding: 245px 40px 30px;
+}
+.page-content-mp .amigo-mp h1{
+    background-color: #ffcd33;
+    text-align: center;
+    padding: 0px 20px
+}
+.page-content-mp .pareja-mp{
+    background-color: #ffcd33;
+    padding: 65px 30px .1px 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #652c90;
+    line-height: 24px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    font-size: 10px;
+}
+.page-content-mp .pareja-mp i{
+    font-size: 18px;
+    color: white
+}
+/*Lugares seguros*/
+.page-content-mp .morado-mp-2{
+    background-color: #652c90;
+    padding: 60px 20px .1px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0
+}
+.page-content-mp .morado-mp-2 a i{
+    color: white;
+    font-size: 20px
+}
+.page-content-mp .morado-mp-2 h1{
+    margin: 0 0 20px;
+    font-size: 20px;
+    line-height: 25px
+}
+.page-content-mp .morado-mp-2 img{
+    width: 50px;
+}
+.lugares-titulo-mp{
+  padding: 30px 0 0 ;
+    text-align: center;    
+}
+.page-content-mp .caja-gris .lugares-gris{
+    padding: 280px 40px 30px;
+}
+.mapa{
+    height: 190px;
+    width: 190px;
+    margin: 0 auto
+}
+.mapa iframe{
+    height: 100%;
+    width: 100%
+}
+.contenedor-mapa{
+    height: 215px;
+    width: 215px;
+    background-color: #ffcd33;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*estadisticas*/
+.estadisticas-titulo-mp{
+    padding-top: 50px;
+    text-align: center
+}
+.page-content-mp .estadisticas-gris{
+    padding-top: 170px
+}
+.page-content-mp .estadisticas-img img{
+    width: 250px;
+}
+.page-content-mp .estadisticas-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-content-mp .texto-morado p{
+    padding: 0px;
+    background-color: white;
+    font-size: 10px;
+}
+.page-content-mp .texto-morado .caja-morada p{
+    background-color: #652c90;
+    color: white;
+    margin:20px;
+    padding: 20px;
+    border-radius: 15px
+}
+.page-content-mp .caja-gris-sex p{
+    padding: 290px 40px 30px;
+    background-color: #e7e8e9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center
+}
+.v-titulo-sex-mp{
+  padding: 55px 0 0 ;
+    text-align: center;    
+}
+.v-titulo-sex-mp img{
+    width: 70px
+}
+.boton-contenedor-sex-mp {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.page-content-mp .caja-gris-est p{
+    padding: 170px 40px 30px;
+    background-color: #e7e8e9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center
+}
+/*Page content morado*/
+.fondo-morado-mp{
+    background-color: #652c90;
+    height: 100%
+}
+
